@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  height: 200px;
+  background-color: green;
+}
+
+.column {
+  float: left;
+  margin: 1%;
+  text-align: justify;
+}
+
+.left {
+  width: 27%;
+  background-color: yellow;
+}
+
+.center {
+  width: 36%;
+  background-color: lightblue;
+  margin: 1% 3%;
+}
+
+.right {
+  width: 27%;
+}
+
+.paragraph {
+  background-color: red;
+  margin-bottom: 15px;
+}
+
+footer {
+  height: 150px;
+  background-color: brown;
+}
+
+body {
+  background-image: url(https://clearchirospokane.com/wp-content/uploads/2016/08/wildtextures_dark_wood_glossy_floor-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
