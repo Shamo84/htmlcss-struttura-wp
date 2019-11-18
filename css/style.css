@@ -11,8 +11,27 @@ main::after {
 }
 
 header {
+  position: relative;
   height: 200px;
+}
+
+.header {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
   background-color: green;
+  background-image: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_1151,w_2048,x_0,y_149/f_auto,q_auto,w_1100/v1555274683/shape/mentalfloss/31105585103_4c32392ac1_k.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  width: 70%;
+  margin: auto;
 }
 
 .column {
@@ -43,6 +62,8 @@ header {
 
 footer {
   height: 150px;
+  width: 70%;
+  margin: auto;
   background-color: brown;
 }
 
@@ -50,5 +71,5 @@ body {
   background-image: url(https://clearchirospokane.com/wp-content/uploads/2016/08/wildtextures_dark_wood_glossy_floor-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
 }
